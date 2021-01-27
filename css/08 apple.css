@@ -1,0 +1,518 @@
+/* body */
+
+*{
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+    
+}
+.separator{
+    display: block;
+    height: 1rem;
+    
+    background-color: none;
+
+}
+/* header */
+
+header section{
+    display: flex;
+    flex-direction: column ;
+    background-color: blue;
+}
+header section .top-1{
+    background-color:#333 ;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    width: 100vw;
+}
+header section .top-2{
+    display: flex;
+    width: 1000px;
+    padding:  0.7rem 0  0.7rem 0;
+    background-color:none ; 
+    justify-content: center;
+}
+header section .top-2 ul{
+    background-color: none;
+   display: flex;
+   flex: 1;
+   justify-content: space-between;
+}
+header section .top-2 ul li{
+    background-color: none;
+    font-size: 0.9rem;
+}
+header section .top-2 ul li a{
+    color: #D0D3D4;
+}
+header section .top-2 ul li a:hover{
+    color: white;
+}
+header section .top-2 ul li a i{
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+header section .top-3{
+    display: flex;
+    justify-content: center;
+    margin-top: 2.7rem;
+    background-color: #F0F3F4;
+    padding: 0.7rem 0  0.7rem 0;
+}
+header section .top-3 p{
+    font-size: 0.9rem;
+    text-align: center;
+}
+header section .top-3 p a{
+    font-weight: 700;
+    color:#3498DB ;
+}
+header section .top-3 p a:hover{
+    text-decoration: underline;
+}
+/* Main top*/
+main section .container-1{
+    background: url(/Image/iphone12.jpg) top center/cover;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    
+}
+main section .content-top{
+    background-color: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+main section a h1{
+    font-size: 3rem;
+    margin: 4rem 1rem 1rem 1rem;
+    text-align: center;
+    background-color: none;
+}
+main section a h2{
+    font-size: 1.5rem;
+    margin: 1rem;
+    text-align: center;
+    background-color:none;
+}
+main section a p{
+    font-size: 1rem;
+    font-weight: ;
+    letter-spacing: 1px;
+    margin: 1rem;
+    text-align: center;
+    color:black;
+    font-weight: 400;
+    background-color: none;
+    
+}
+main section .content-top-1{
+    background-color: none;
+    display: flex;
+    width: 600px;
+    justify-content: center;
+}
+main section .content-top-1 a{
+    font-size: 1.3rem;
+    margin: 1rem;
+    color:#3498DB;
+    font-weight: 400;
+}
+main section .content-top-1 a:hover{
+    text-decoration: underline;
+   
+}
+main section .lien-1{
+    background-color: none;
+    flex: 1;
+    text-align: end;
+    
+}
+main section .lien-2{
+    background-color: none;
+    flex: 1;
+}
+/* Main mid */
+
+main section .container-2{
+    background-color: black;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    
+}
+main section .content-top{
+    background-color: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+main section a h1{
+    font-size: 3rem;
+    margin: 4rem 1rem 1rem 1rem;
+    text-align: center;
+    background-color: none;
+    color: white;
+}
+main section a h2{
+    font-size: 1.5rem;
+    margin: 1rem;
+    text-align: center;
+    background-color:none;
+    color: white;
+}
+main section a p{
+    font-size: 1rem;
+    font-weight: ;
+    letter-spacing: 1px;
+    margin: 1rem;
+    text-align: center;
+    color:black;
+    font-weight: 400;
+    background-color: none;
+    color: white;
+    
+}
+main section .content-top-2{
+    background-color: none;
+    display: flex;
+    width: 600px;
+    justify-content: center;
+}
+main section .content-top-2 a{
+    font-size: 1.3rem;
+    margin: 1rem;
+    color:#3498DB;
+    font-weight: 400;
+    
+}
+main section .content-top-2 a:hover{
+    text-decoration: underline;
+   
+}
+main section .lien-1{
+    background-color: none;
+    flex: 1;
+    text-align: end;
+    
+}
+main section .lien-2{
+    background-color: none;
+    flex: 1;
+}
+main section .content-img-1{
+    flex: 1;
+    width: 800px;
+    background: url(/Image/iphone\ 12\ pro\ 2.png) top center /cover;
+}
+  /*Main bottom*/
+main section .container-3{
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid 1px #FBFCFC;
+    background-color:none;
+    cursor: pointer;
+}
+main section .content-cadeau-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+main section .content-img-2{
+    display: block;
+    background: url(/Image//apple\ cadeaux.png) center center/cover;
+    height: 100px;
+    width: 80px;
+    margin: 2rem;
+}
+main section h1{
+    font-size: 3rem;
+    margin: 1rem;
+    text-align: center;
+    background-color: none;
+    
+}
+main section .content-cadeau-1 a{
+    font-size: 1.3rem;
+    margin: 1rem;
+    color:#3498DB;
+    font-weight: 400;
+}
+main section .content-cadeau-1 a:hover{
+    text-decoration: underline;
+
+}
+main section .content-cadeau-2{
+    display: block;
+    background-color: none;
+    height: 100%;
+    width: 1200px;
+    margin: 1rem;
+}
+main section .content-cadeau-2 ul{
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem;
+
+}
+main section .content-cadeau-2 ul li{
+    background-color:none;
+    height: 330px;
+    width: 330px;
+
+}
+main section .content-img-li-1{
+    background: url(/Image/iphone\ bonne1.jfif) center center /cover;
+}
+main section .content-img-li-2{
+    background: url(/Image//apple\ watch\ bonne\ 2.jfif) center center /cover;
+}
+main section .content-img-li-3{
+    background: url(/Image//ipad\ bonne\ 3.jfif) center center /cover;
+}
+
+/* Main bottom top */
+
+main section .container-4{
+    background-color: none;
+    height: 550px;
+    margin: 0 1rem 0 1rem;
+}
+main section h2{
+    font-size: 2rem;
+    margin-top: 5rem;
+    text-align: center;
+    background-color: none;
+}
+
+main section .content-bottom-top{
+    display: flex;
+    height: 100%;
+    
+}
+main section .block-bottom-1{
+    background: url(/Image//casque\ apple.jpg) center center /cover;
+    flex: 1;
+    margin-right: 0.5rem;
+    
+}
+main section .block-bottom-2{
+    background: url(/Image//apple\ one.png) center center /cover;
+    flex: 1;
+    margin-left: 0.5rem;
+}
+main section .block-bottom-2 p{
+    font-size: 1.1rem;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-align: center;
+
+}
+.container-4 a{
+    font-size: 1.1rem;
+    margin: 1rem;
+    color:#3498DB;
+    font-weight: 400;
+}
+.container-4 a:hover{
+    text-decoration: underline;
+}
+main section .content-bottom-lien{
+    display: flex;
+    justify-content: center;
+}
+main section .content-bottom-lien a{
+    background-color: none;
+}
+/* Main bottom mid */
+
+main section .container-5{
+    background-color: none;
+    height: 550px;
+    margin: 0 1rem 0 1rem;
+}
+main section .content-bottom-top{
+    display: flex;
+    height: 100%;
+    
+}
+main section .block-bottom-3{
+    background: url(/Image/apple\ home.jpg) top center /cover;
+    flex: 1;
+    margin-right: 0.5rem;
+    border: 1px solid #FBFCFC;
+}
+main section .block-bottom-3 h2{
+    margin-top: 250px;
+    color: white;
+
+}
+main section .block-bottom-4{
+    padding-top: 350px;
+    color: white;
+}
+main section .block-bottom-4{
+    background: url(/Image/apple\ confident.png) center center /cover
+    ;
+    flex: 1;
+    margin-left: 0.5rem;
+}
+main section .block-bottom-4 p{
+    font-size: 1.1rem;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-align: center;
+
+}
+.container-5 a{
+    font-size: 1.1rem;
+    margin: 1rem;
+    color:#3498DB;
+    font-weight: 400;
+}
+.container-5 a:hover{
+    text-decoration: underline;
+}
+main section .content-bottom-lien{
+    display: flex;
+    justify-content: center;
+}
+main section .content-bottom-lien a{
+    background-color: none;
+}
+/* main bottom bottom */
+
+
+main section .container-6{
+    background-color: none;
+    height: 550px;
+    margin: 0 1rem 0 1rem;
+}
+main section .content-bottom-top{
+    display: flex;
+    height: 100%;
+    
+}
+main section .block-bottom-5{
+    background: url(/Image/apple\ tv.jpg) top center /cover;
+    flex: 1;
+    margin-right: 0.5rem;
+    
+}
+main section .block-bottom-5 h2{
+    margin-top: 23rem;
+    color: white;
+
+}
+main section .block-bottom-6{
+    padding-top: 20rem;
+    color: black;
+}
+main section .liens-7{
+    color: black;
+}
+main section .block-bottom-6{
+    background: url(/Image/league\ apple.jpg) center center /cover;
+    flex: 1;
+    margin-left: 0.5rem;
+    border: 1px solid #FBFCFC;
+}
+main section .block-bottom-6 p{
+    font-size: 1.1rem;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-align: center;
+
+}
+.container-6 a{
+    font-size: 1.1rem;
+    margin: 1rem;
+    color:#3498DB;
+    font-weight: 400;
+}
+.container-6 a:hover{
+    text-decoration: underline;
+}
+main section .content-bottom-lien{
+    display: flex;
+    justify-content: center;
+}
+main section .content-bottom-lien a{
+    background-color: none;
+}
+/* Footer */
+footer .container{
+    height: 80vh;
+    background-color: #F0F3F4;
+    
+
+}
+footer .foot{
+    background-color: none;
+    
+    margin: auto;
+    width: 1000px;
+    height: 100%;
+}
+footer .content-1 p{
+    padding-top: 1rem;
+    font-size: 0.7rem;
+    font-weight: 300;
+}
+/* footer mid */
+footer .content-2{
+    display: flex;
+    
+}
+footer .content-2 ul{
+    flex: 1;
+}
+
+footer .footer-tg{
+    padding-top: 0.5rem;
+    font-size: 0.7rem;
+    font-weight: 300;
+   
+}
+footer .footer-bg{
+    padding-top: 0.5rem;
+   font-weight: 700;
+   font-size: 0.8rem;
+}
+footer .footer-tg:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+footer .content-2-p{
+    padding: 0.5rem 0 0.5rem 0;
+    font-size: 0.7rem;
+    font-weight: 300;
+}
+footer .lien-11{
+    font-size: 0.8rem;
+    color:#3498DB;
+    font-weight: 500;
+}
+footer .lien-11:hover{
+    text-decoration: underline;
+}
